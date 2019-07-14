@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Literature Grade5</string>
+    <string name="literature">Литература</string>
+    <string name="Grade5">5 класс</string>
+    <string name="go">Начать</string>
+    <string name="logoBook">logoBook</string>
+    <string name="activity_two">activity_two</string>
+    <string name="name1">Устное народное творчество</string>
+    <string name="name2">Из древнерусской литературы</string>
+    <string name="name3">Из русской литературы XVlll</string>
+    <string name="name4">Из русской литературы XlX</string>
+    <string name="name5">Русская литературная сказка</string>
+    <string name="name6">Русские поэты XlX века о Родине,
+родной природе и о себе </string>
+    <string name="name7">Справочные материалы</string>
+    <string name="name8">Краткий словарь литературоведческих терминов </string>
+</resources>
