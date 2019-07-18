@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/fon1"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
@@ -84,8 +84,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
