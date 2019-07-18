@@ -1,6 +1,6 @@
 package arkadii.ivanov.literaturegrade5;
 
-public class ProductList {
+class ProductList {
 
 	private int id;
 	private String name;

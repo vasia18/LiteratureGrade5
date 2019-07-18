@@ -4,11 +4,10 @@ import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.ListView;
 
 import java.util.List;
 
-public class ProductListAdapter extends BaseAdapter {
+class ProductListAdapter extends BaseAdapter {
 
 
 private Context mContext;

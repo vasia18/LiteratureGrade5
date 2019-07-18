@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@drawable/fon1"
     tools:context=".MainActivity">
 
@@ -49,18 +50,20 @@
         android:src="@drawable/book_big"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Grade5" />
+        app:layout_constraintTop_toBottomOf="@+id/Grade5"
+        app:layout_constraintVertical_bias="0.336" />
 
     <Button
-        android:onClick="btn_go_activityTwo"
         android:id="@+id/button"
         android:layout_width="285dp"
         android:layout_height="54dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="68dp"
+        android:layout_marginBottom="120dp"
         android:background="@drawable/style_btn_on_and_press"
+        android:onClick="btn_go_activityTwo"
         android:paddingLeft="80dp"
         android:paddingRight="80dp"
         android:text="@string/go"
@@ -68,15 +71,21 @@
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp" />
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/APP_WHICH_HELPS_TO_LEARN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
